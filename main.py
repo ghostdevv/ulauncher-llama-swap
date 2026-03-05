@@ -123,7 +123,7 @@ class LlamaSwapExtension(Extension):
 
     def unload_model(self, model_id: str, query: str | None):
         try:
-            response = requests.delete(
+            response = requests.post(
                 f"{self.get_base_url()}/models/unload/{model_id}",
                 headers=self.get_headers(),
                 timeout=30,
