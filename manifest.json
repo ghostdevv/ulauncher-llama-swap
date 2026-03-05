@@ -1,0 +1,39 @@
+{
+	"required_api_version": "2",
+	"name": "Llama Swap",
+	"description": "Control and monitor your llama-swap models",
+	"developer_name": "Willow (GHOST)",
+	"icon": "images/llama-swap.png",
+	"options": {
+		"query_debounce": 0.1
+	},
+	"preferences": [
+		{
+			"id": "llama_swap_kw",
+			"type": "keyword",
+			"name": "Llama Swap",
+			"default_value": "ls"
+		},
+		{
+			"id": "base_url",
+			"type": "text",
+			"name": "Base URL",
+			"description": "The base URL of your llama-swap instance (e.g., http://localhost:8080)",
+			"default_value": "http://localhost:8080"
+		},
+		{
+			"id": "api_token",
+			"type": "text",
+			"name": "API Token",
+			"description": "The API token for authentication",
+			"default_value": ""
+		},
+		{
+			"id": "limit",
+			"type": "text",
+			"name": "Limit",
+			"description": "The number of results to display",
+			"default_value": "9"
+		}
+	]
+}
