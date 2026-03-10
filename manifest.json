@@ -1,7 +1,7 @@
 {
 	"required_api_version": "2",
 	"name": "Llama Swap",
-	"description": "Control and monitor your llama-swap models",
+	"description": "Start/stop your Llama Swap models",
 	"developer_name": "Willow (GHOST)",
 	"icon": "images/llama-swap.png",
 	"options": {
